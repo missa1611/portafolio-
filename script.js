@@ -45,3 +45,17 @@ el.classList.add("visible");
 
 window.addEventListener("scroll", mostrarScroll);
 window.addEventListener("load", mostrarScroll);
+
+// MODAL
+
+function abrirImagen(img){
+const modal= document.getElementById("modalImagen");
+const imagenGrande= document.getElementById("imagenGrande");
+
+modal.style.display= "flex";
+imagenGrande.src= img.src;
+}
+
+function cerrarImagen(){
+document.getElementById("modalImagen").style.display="none";
+}

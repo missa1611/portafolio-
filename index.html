@@ -23,13 +23,13 @@
     </nav>
 
     <div class="frase">
-        “Así como es arriba es abajo, así como es abajo es arriba”
+        “Así como es arriba, es abajo, así como es abajo, es arriba”
     </div>
     
     
 
     <div class="perfil">
-        <img src="img/misa.png" alt="Imagen de perfil" width="100">
+        <img src="img/misa.png" alt="Imagen de perfil" width="100" onclick="abrirImagen(this)">
     </div>
 
     <div class="presentacion">
@@ -38,6 +38,11 @@
         <p>LIC. INFORMÁTICA ADMINISTRATIVA</p>
     </div>
 
+</div>
+
+<!--MODAL-->
+<div id="modalImagen" class="modal" onclick="cerrarImagen()">
+<img id="imagenGrande">
 </div>
 
 <script src="script.js"></script>
